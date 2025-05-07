@@ -11,7 +11,7 @@
     <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/imagenes/icon_logalum.GIF"/>
     <br/><br/>
  
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" PageSize="5">
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" PageSize="5" BackColor="White" Font-Bold="True" Font-Names="Arial">
         <AlternatingRowStyle BackColor="#99CCFF" />
         <HeaderStyle BackColor="#0066CC" Font-Names="Bell MT" ForeColor="White" />
         <PagerStyle BackColor="#0066CC" BorderColor="White" ForeColor="White" />

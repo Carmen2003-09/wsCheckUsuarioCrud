@@ -80,7 +80,7 @@ namespace wsCheckUsuario
                 }
             }
 
-            catch (Exception ex)
+            catch (Exception )
             {
                 Response.Write("<script language='javascript'>alert('Error inesperado ...');</script>");
             }
